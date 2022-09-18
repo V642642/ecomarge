@@ -41,7 +41,7 @@ const EcoBanner = () => {
     const data = await axios.post(
       "https://jsonplaceholder.typicode.com/posts",
       d,
-      { header: "header" }
+      { header: header }
     );
     return data;
   };
